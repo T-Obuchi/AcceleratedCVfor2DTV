@@ -1,4 +1,4 @@
-# AcceleratedCVfor2DTV
+# AcceleratedCVon2DTVLR
 Approximate cross-validation for linear regression penalized by terms of *L1* and two-dimensional total variation.
 
 This is free software, you can redistribute it and/or modify it under the terms of the GNU General Public License, version 3 or above. See LICENSE.txt for details.
