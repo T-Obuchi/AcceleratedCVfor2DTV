@@ -6,14 +6,14 @@ This is free software, you can redistribute it and/or modify it under the terms 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 # DESCRIPTION
-Using the estimated explanatory variables *x* given the measument matrix *A* and the measurement result *y*, this program computes and returns an approximate leave-one-out error (LOOE) and its standard error for linear regression penalized by *L1* norm and two-dimensional total variation (TV). 
+Using the estimated explanatory variables *x* given the measument matrix *A* and the measurement result *y*, this program computes and returns an approximate leave-one-out error (LOOE) and its standard error for linear regression penalized by *L1* norm and two-dimensional total variation (TV).
 
 # USAGE
 ```matlab
    [LOOE,ERR] = LOOEapprox_2DTV(x,y,A,Nx,Ny,lambda_T,delta,theta)
 ```
 Inputs:
-- *x*: Explanatory variables (N=Nx*Ny dimensional vector). A two-dimensional (2D) image is expected in common cases.
+- *x*: Estimated explanatory variables (N=Nx*Ny dimensional vector). A two-dimensional (2D) image is expected in common cases.
 - *y*: Measurement result (M dimensional vector)
 - *A*: Measurement matrix (M*N dimensional matrix)
 - *Nx*: One side length of *x* in 2D.
